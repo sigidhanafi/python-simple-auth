@@ -4,15 +4,11 @@ This is my first application that using flask framework. This application is an 
 
 # Database Structure
 
-## Create Database
-
-...mysql
+```mysql
 CREATE DATABASE BucketList;
-...
+```
 
-## Create Table User
-
-...mysql
+```mysql
 CREATE TABLE `BucketList`.`user` (
   `id` BIGINT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
@@ -20,4 +16,4 @@ CREATE TABLE `BucketList`.`user` (
   `password` VARCHAR(45) NULL,
   `bio` VARCHAR(255) NULL,
 PRIMARY KEY (`user_id`));
-...
+```
